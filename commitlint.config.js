@@ -47,4 +47,6 @@ module.exports = {
       ],
     ],
   },
+  helpUrl:
+    'Le message du commit doit être précédé par un type sous la forme : "<type>: <message>" (Les types disponibles sont : build / chore / ci / docs / feat / fix / perf / refactor / revert / style / test / translation / security / changeset)',
 };
