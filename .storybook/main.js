@@ -14,6 +14,7 @@ module.exports = {
         postCss: true,
       },
     },
+    'storybook-addon-next-router',
   ],
   framework: '@storybook/react',
   core: {
