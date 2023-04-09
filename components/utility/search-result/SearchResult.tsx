@@ -1,8 +1,6 @@
-export interface ISearchResult extends React.ComponentPropsWithoutRef<'div'> {
-  url: string;
-  title: string;
-  text: string;
-}
+import { ISearchData } from '../../../lib/search/types';
+
+export type ISearchResult = ISearchData & React.ComponentPropsWithoutRef<'div'>;
 
 const SearchResult: React.FC<ISearchResult> = ({ url, title, text, className, ...divProps }) => {
   return (
